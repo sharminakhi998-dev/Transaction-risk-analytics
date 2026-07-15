@@ -1,0 +1,13 @@
+# Large dataset - exceeds GitHub's 100MB limit, download separately (see README)
+data/raw/creditcard.csv
+
+# Trained model artifacts (regenerate by running notebook 03)
+data/processed/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
